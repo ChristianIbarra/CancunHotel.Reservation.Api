@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CancunHotel.Reservation.Domain\CancunHotel.Reservation.Domain.csproj" />
+    <ProjectReference Include="..\CancunHotel.Reservation.Repository\CancunHotel.Reservation.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

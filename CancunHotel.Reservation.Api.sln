@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Reservation.Api", "CancunHotel.Reservation.Api\CancunHotel.Reservation.Api.csproj", "{161EAEF8-DD41-4D76-BFFC-0F1FF3285993}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Reservation.Domain", "CancunHotel.Reservation.Domain\CancunHotel.Reservation.Domain.csproj", "{45E3C7BB-3B72-450A-A66E-67570B84309A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Reservation.Repository", "CancunHotel.Reservation.Repository\CancunHotel.Reservation.Repository.csproj", "{CB63B34C-7527-4D84-9B62-AF9F9C642250}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancunHotel.Reservation.Application", "CancunHotel.Reservation.Application\CancunHotel.Reservation.Application.csproj", "{354A3F0A-B1BE-4F7F-91E9-51A6B82C2E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancunHotel.Reservation.Test", "CancunHotel.Reservation.Test\CancunHotel.Reservation.Test.csproj", "{E9274B95-E8B7-4676-8187-E1466B93878F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{161EAEF8-DD41-4D76-BFFC-0F1FF3285993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161EAEF8-DD41-4D76-BFFC-0F1FF3285993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161EAEF8-DD41-4D76-BFFC-0F1FF3285993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161EAEF8-DD41-4D76-BFFC-0F1FF3285993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E3C7BB-3B72-450A-A66E-67570B84309A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E3C7BB-3B72-450A-A66E-67570B84309A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E3C7BB-3B72-450A-A66E-67570B84309A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E3C7BB-3B72-450A-A66E-67570B84309A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB63B34C-7527-4D84-9B62-AF9F9C642250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB63B34C-7527-4D84-9B62-AF9F9C642250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB63B34C-7527-4D84-9B62-AF9F9C642250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB63B34C-7527-4D84-9B62-AF9F9C642250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354A3F0A-B1BE-4F7F-91E9-51A6B82C2E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354A3F0A-B1BE-4F7F-91E9-51A6B82C2E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354A3F0A-B1BE-4F7F-91E9-51A6B82C2E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354A3F0A-B1BE-4F7F-91E9-51A6B82C2E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9274B95-E8B7-4676-8187-E1466B93878F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9274B95-E8B7-4676-8187-E1466B93878F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9274B95-E8B7-4676-8187-E1466B93878F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9274B95-E8B7-4676-8187-E1466B93878F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3E46E4-CE86-4CDD-ABA8-0B1A912FC69F}
+	EndGlobalSection
+EndGlobal
